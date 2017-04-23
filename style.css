@@ -1,9 +1,15 @@
 body{
-   background-color: darkgray;
+   background-color: black;
    text-align: center;
+   color: white;
+   font-family: 'Finger Paint', cursive;
+}
+.btn-default{
+   margin: 5%;
 }
 #board{
    margin-top: 5%;
+   margin-bottom: 5%;
 }
 .tile{
    height: 20%;
@@ -12,62 +18,62 @@ body{
    font-size: 10vh;
 }
 .tile:hover{
-   background-color: gray;
+   background-color: white;
 }
 .tile:active{
-   background-color:darkgray;
+   background-color:black;
 }
 #t1{
    border-top: none;
-   border-right: thick solid black;
-   border-bottom: thick solid black;
+   border-right: thick solid white;
+   border-bottom: thick solid white;
    border-left: none;
 }
 #t2{
    border-top: none;
-   border-right: thick solid black;
-   border-bottom: thick solid black;
-   border-left: thick solid black;
+   border-right: thick solid white;
+   border-bottom: thick solid white;
+   border-left: thick solid white;
 }
 #t3{
    border-top: none;
    border-right: none;
-   border-bottom: thick solid black;
-   border-left: thick solid black;
+   border-bottom: thick solid white;
+   border-left: thick solid white;
 }
 #t4{
-   border-top: thick solid black;
-   border-right: thick solid black;
-   border-bottom: thick solid black;
+   border-top: thick solid white;
+   border-right: thick solid white;
+   border-bottom: thick solid white;
    border-left: none;
 }
 #t5{
-   border-top: thick solid black;
-   border-right: thick solid black;
-   border-bottom: thick solid black;
-   border-left: thick solid black;
+   border-top: thick solid white;
+   border-right: thick solid white;
+   border-bottom: thick solid white;
+   border-left: thick solid white;
 }
 #t6{
-   border-top: thick solid black;
+   border-top: thick solid white;
    border-right: none;
-   border-bottom: thick solid black;
-   border-left: thick solid black;
+   border-bottom: thick solid white;
+   border-left: thick solid white;
 }
 #t7{
-   border-top: thick solid black;
-   border-right: thick solid black;
+   border-top: thick solid white;
+   border-right: thick solid white;
    border-bottom: none;
    border-left: none;
 }
 #t8{
-   border-top: thick solid black;
-   border-right: thick solid black;
+   border-top: thick solid white;
+   border-right: thick solid white;
    border-bottom: none;
-   border-left: thick solid black;
+   border-left: thick solid white;
 }
 #t9{
-   border-top: thick solid black;
+   border-top: thick solid white;
    border-right: none;
    border-bottom: none;
-   border-left: thick solid black;
+   border-left: thick solid white;
 }
